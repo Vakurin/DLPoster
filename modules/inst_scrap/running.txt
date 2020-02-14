@@ -1,0 +1,16 @@
+https://github.com/rarcega/instagram-scraper
+
+INSTALLING
+>>>pip install instagram-scraper
+
+Run with max size and media type:
+>>>>instagram-scraper username --maximum n --media-types image
+#by default, downloaded media will be placed 
+#in <current working directory>/<username>.
+
+RUN AND CHANGE OUTPUT DIRECTORY
+>>>instagram-scraper <username> --maximum <n> --media-types image --destination <directory/output>
+
+PROXY 
+--proxies Enable use of proxies, add a valid JSON with http or/and https urls.
+Example: '{"http": "http://<ip>:<port>", "http": "https://<ip>:<port>" }'
